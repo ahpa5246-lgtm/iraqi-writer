@@ -1,5 +1,33 @@
 # الكاتب العراقي — Iraqi Writer
 
+## Download, setup and project overview
+
+A modular Arabic editorial skill collection.
+
+Task routing; voice references; research and editing; single-post and carousel workflows.
+
+![Project workflow illustration](docs/project-overview.svg)
+
+[Download source ZIP](https://github.com/ahpa5246-lgtm/iraqi-writer/archive/refs/heads/main.zip) · [Changes and branches](https://github.com/ahpa5246-lgtm/iraqi-writer/branches) · [Verification notes](docs/QUALITY_REVIEW.md)
+
+The ZIP contains source code. Installation steps and external runtime requirements are listed below.
+
+```bash
+git clone https://github.com/ahpa5246-lgtm/iraqi-writer.git
+cd iraqi-writer
+```
+
+From the repository directory:
+
+```text
+# Add this folder to an Agent Skills-compatible environment.
+# Start by reading SKILL.md.
+python -m unittest discover -s tests -v
+```
+
+The diagram is a project illustration. Test results and runtime limitations are recorded in [the review](docs/QUALITY_REVIEW.md); it is not a production-readiness certification.
+
+
 مجموعة مهارات تحرير محتوى عربي للمنشورات المفردة، وكاروسيلات إنستغرام، والمحتوى التقني والتصميمي.
 
 **الصوت المعتمد:** عربية واضحة وقريبة من القارئ، مع لمسة عراقية خفيفة حين تخدم الجملة، لا لهجة كثيفة أو استبدال آلي للحروف. النموذج الأسلوبي تحريري ومعلوماتي: عنوان دقيق، شرح مختصر، مثال ملموس، ونهاية مكتملة.
